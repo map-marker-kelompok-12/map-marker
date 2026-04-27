@@ -1,0 +1,245 @@
+/* =========================
+   GLOBAL STYLE
+========================= */
+
+body {
+    font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+    margin: 0;
+    background-color: #f1f3f4;
+}
+
+
+
+/* =========================
+   HEADER MODERN
+========================= */
+
+header {
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 20px;
+
+    background: linear-gradient(
+        135deg,
+        #1a73e8,
+        #4285f4
+    );
+
+    color: white;
+
+    font-size: 18px;
+    font-weight: 600;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+
+    z-index: 1000;
+}
+
+/* Jika masih pakai h2 */
+header h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+
+
+/* =========================
+   LAYOUT UTAMA
+========================= */
+
+.container {
+    display: flex;
+    height: calc(100vh - 60px);
+
+    position: relative; /* penting untuk tombol */
+}
+
+
+
+/* =========================
+   SIDEBAR MODERN
+========================= */
+
+.sidebar {
+    width: 320px;
+
+    background: white;
+
+    border-right: none;
+
+    overflow-y: auto;
+
+    box-shadow: 4px 0 12px rgba(0,0,0,0.08);
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* Judul sidebar */
+
+.sidebar h3 {
+
+    margin: 0;
+
+    padding: 18px 20px;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    background: #f8f9fa;
+
+    border-bottom: 1px solid #eee;
+}
+
+
+/* List lokasi */
+
+.sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 12px;
+}
+
+
+/* Item lokasi (dibuat seperti card) */
+
+.sidebar li {
+
+    padding: 14px 16px;
+
+    margin-bottom: 10px;
+
+    border-radius: 12px;
+
+    background: white;
+
+    cursor: pointer;
+
+    transition: all 0.25s ease;
+
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+
+    font-size: 14px;
+}
+
+
+/* Hover efek modern */
+
+.sidebar li:hover {
+
+    background: #e8f0fe;
+
+    transform: translateX(5px);
+
+    box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+
+}
+
+
+/* Klik aktif */
+
+.sidebar li.active {
+
+    background: linear-gradient(
+        135deg,
+        #d2e3fc,
+        #e8f0fe
+    );
+
+    font-weight: 600;
+
+    border-left: 4px solid #1a73e8;
+
+}
+
+
+
+/* =========================
+   MAP AREA
+========================= */
+
+#map {
+    flex: 1;
+    height: 100%;
+
+    position: relative;
+}
+
+
+
+/* =========================
+   TOMBOL LOKASI SAYA
+========================= */
+
+#btnLocation {
+
+    position: absolute;
+
+    bottom: 20px;
+    right: 20px;
+
+    padding: 12px 14px;
+
+    background-color: white;
+
+    color: #333;
+
+    border: none;
+
+    border-radius: 50px;
+
+    cursor: pointer;
+
+    font-size: 14px;
+
+    font-weight: 500;
+
+    box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+
+    transition: all 0.2s ease;
+
+    z-index: 1000;
+}
+
+
+/* Hover tombol */
+
+#btnLocation:hover {
+
+    background-color: #f1f3f4;
+
+    transform: scale(1.05);
+
+}
+
+
+/* Klik tombol */
+
+#btnLocation:active {
+
+    transform: scale(0.95);
+
+}
+
+
+
+/* =========================
+   SCROLLBAR MODERN
+========================= */
+
+.sidebar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 3px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+    background: #999;
+}
