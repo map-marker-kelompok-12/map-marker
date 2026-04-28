@@ -78,7 +78,18 @@ var locations = [
         name: "Rumah Reky",
         lat: 5.596088234003062,  
         lng: 95.36705725683282
+    },
+    {
+        name: "Gudang Cafe ",
+        lat: 5.571526326384845, 
+        lng: 95.34967679689862
+    },
+    {
+        name: "Rumah Panjul",
+        lat: 5.577195064866737,  
+        lng: 95.34617953924801
     }
+    
 ];
 
 
