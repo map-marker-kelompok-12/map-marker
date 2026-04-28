@@ -93,7 +93,13 @@ var locations = [
         name: "Masjid Jamik Baitul Ahad",
         lat: 5.576302089835663,   
         lng: 95.39748340107958
+    },
+    {
+        name: "Masjid Raya Baiturrahman",
+        lat: 5.553916156238094, 
+        lng: 95.31778882573425
     }
+
     
 ];
 
