@@ -68,6 +68,11 @@ var locations = [
         name: "Universitas Bina Bangsa Getsempena",
         lat: 5.5805599812709445,
         lng: 95.35782300725448
+    },
+    {
+        name: "Universitas Ubudiyah Indonesia",
+        lat: 5.586646762542887,
+        lng: 95.35136178076372
     } 
 ];
 
