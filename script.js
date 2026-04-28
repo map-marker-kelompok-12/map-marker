@@ -88,6 +88,11 @@ var locations = [
         name: "Rumah Panjul",
         lat: 5.577195064866737,  
         lng: 95.34617953924801
+    },
+    {
+        name: "Masjid Jamik Baitul Ahad",
+        lat: 5.576302089835663,   
+        lng: 95.39748340107958
     }
     
 ];
