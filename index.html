@@ -25,14 +25,18 @@
 
     <div class="sidebar">
         <h3>Daftar Lokasi</h3>
+        <input type="text" id="searchBox" placeholder="Cari lokasi..." autocomplete="off" />
         <ul id="locationList"></ul>
+        <div id="locationDetail" class="location-detail" style="display:none"></div>
     </div>
 
     <div id="map"></div>
 
-    <button id="btnLocation">
+    <button id="btnLocation" title="Tampilkan lokasi Anda">
         📍 Lokasi Saya
     </button>
+
+    <div id="snackbar"></div>
 
 </div>
 
