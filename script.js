@@ -73,7 +73,12 @@ var locations = [
         name: "Universitas Ubudiyah Indonesia",
         lat: 5.586646762542887,
         lng: 95.35136178076372
-    } 
+    },
+    {
+        name: "Rumah Reky",
+        lat: 5.596088234003062,  
+        lng: 95.36705725683282
+    }
 ];
 
 
